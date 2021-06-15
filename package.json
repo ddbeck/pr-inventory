@@ -1,0 +1,24 @@
+{
+  "name": "@ddbeck/pr-inventory",
+  "version": "0.1.0",
+  "scripts": {
+    "update": "node ./src/airtable.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddbeck/bcd-pr-inventory.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddbeck/bcd-pr-inventory/issues"
+  },
+  "homepage": "https://github.com/ddbeck/bcd-pr-inventory#readme",
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "@octokit/rest": "^18.5.2",
+    "airtable": "^0.11.0"
+  }
+}
