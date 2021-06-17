@@ -18,8 +18,8 @@ const octokit = new Octokit({ auth: TOKEN });
 
 function getPull(number) {
   return octokit.pulls.get({
-    owner: "mdn",
-    repo: "browser-compat-data",
+    owner: GITHUB_REPO_NAME,
+    repo: GITHUB_REPO_OWNER,
     pull_number: number,
   });
 }
